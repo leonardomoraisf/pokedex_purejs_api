@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style_index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="limiter">
+
+        <div class="container-main">
+
+            <div class="pk-txt-img">
+                <img class="pokedex" src="images/pokedex.png" ><img class="pokedex-text" src="images/pokedex-text.png" >
+            </div><!--pk-txt-img-->
+
+            <span class="txt1">Insira a quantidade de pokemons que quer visualizar!</span>
+
+            <div class="wrap-input">
+                <input id="quantidade" type="number" name="quantidade" class="input" placeholder="Quantidade de pokemons">
+            </div><!--wrap-input-->
+
+            <div class="submit-container">
+                <input class="submit" type="submit" name="enviar" id="submit" value="Visualizar">
+                <div id="loading"></div>
+            </div><!--submit-container-->
+
+            <div class="pokemon-boxes">
+            
+            </div><!--pokemon-boxes-->
+
+        </div><!--container-main-->
+
+    </div><!--limiter-->
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
